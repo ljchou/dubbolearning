@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:user="http://www.ljchou.com/schema/user"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.ljchou.com/schema/user
+                http://www.ljchou.com/schema/user/user.xsd">
+    <user:user id="user" userName="dudu" email="email"/>
+</beans>
